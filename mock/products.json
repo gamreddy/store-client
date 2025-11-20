@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "category": "shampoo",
+      "image": "shampoo.png",
+      "name": "CHI Silk Infusion",
+      "price": 29.99,
+      "sku": "CHI-001",
+      "description": "CHI Silk Infusion.",
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "category": "shampoo",
+      "image": "shampoo.png",
+      "name": "BioSilk Silk Therapy",
+      "price": 24.99,
+      "sku": "BIO-001",
+      "description": "BioSilk Silk Therapy.",
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "category": "shampoo",
+      "image": "shampoo.png",
+      "name": "CHI Flat Iron",
+      "price": 89.99,
+      "sku": "CHI-002",
+      "description": "CHI Flat Iron.",
+      "stock": 25
+    },
+    {
+      "id": 4,
+      "category": "shampoo",
+      "image": "shampoo.png",
+      "name": "BioSilk Smoothing Shampoo",
+      "price": 19.99,
+      "sku": "BIO-002",
+      "description": "BioSilk Smoothing Shampoo.",
+      "stock": 75
+    }    
+]
