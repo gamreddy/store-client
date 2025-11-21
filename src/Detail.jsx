@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import useFetch from "./services/useFetch";
 import Spinner from "./Spinner";
@@ -23,7 +22,7 @@ export default function Detail(props) {
         <button 
           className="btn btn-primary" 
           onClick={() => {
-            props.addToCart(id, product.sku);
+            props.dispatch({type: "add", id, sku:product.sku});
             navigate("/cart");
           }}>Add to cart</button>  
       </p>
